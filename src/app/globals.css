@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gray-950 text-white antialiased;
+  }
+
+  * {
+    @apply box-border;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 40px -10px rgba(34, 211, 238, 0.45);
+  }
+
+  /* Scrollbar fino y acorde al tema oscuro (reemplaza el scroll blanco por defecto). */
+  .scrollbar-thin {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #06b6d4 transparent; /* thumb / track (Firefox) */
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: rgba(6, 182, 212, 0.6);
+    border-radius: 9999px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: #06b6d4;
+  }
+}

@@ -1,0 +1,131 @@
+import Link from 'next/link';
+import { MapPin, Clock, Car, Instagram } from 'lucide-react';
+import { BUSINESS_INFO } from '@/lib/utils';
+import { WhatsAppIcon } from '@/components/WhatsAppButton';
+
+export default function Footer() {
+  const year = new Date().getFullYear();
+
+  return (
+    <footer className="bg-gray-950 border-t border-gray-800">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid gap-10 md:grid-cols-3">
+          {/* Columna 1: Marca + contacto */}
+          <div>
+            <div className="mb-6 flex items-center gap-2.5">
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-cyan">
+                <Car className="h-4 w-4 text-white" />
+              </div>
+              <span className="text-lg font-bold">
+                <span className="text-brand-glow">VG</span> Car Service
+              </span>
+            </div>
+            <p className="mb-6 text-sm text-gray-400 leading-relaxed">
+              Mecánica y estética vehicular en Barracas. Todos los servicios del auto bajo un mismo
+              techo.
+            </p>
+
+            <ul className="space-y-3">
+              <li>
+                <a
+                  href={BUSINESS_INFO.addressDirectionsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 text-sm text-gray-300 transition-colors hover:text-brand-glow"
+                >
+                  <MapPin className="h-4 w-4 shrink-0 mt-0.5 text-brand-cyan" />
+                  {BUSINESS_INFO.address}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={BUSINESS_INFO.whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-sm text-gray-300 transition-colors hover:text-brand-glow"
+                >
+                  <WhatsAppIcon className="h-4 w-4 shrink-0 text-brand-cyan" />
+                  WhatsApp {BUSINESS_INFO.whatsapp}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={BUSINESS_INFO.instagramUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-sm text-gray-300 transition-colors hover:text-brand-glow"
+                >
+                  <Instagram className="h-4 w-4 shrink-0 text-brand-cyan" />
+                  {BUSINESS_INFO.instagram}
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Columna 2: Horarios + links */}
+          <div>
+            <h3 className="mb-6 flex items-center gap-2 text-base font-semibold text-white">
+              <Clock className="h-4 w-4 text-brand-cyan" />
+              Horarios de atención
+            </h3>
+            <ul className="space-y-3">
+              {BUSINESS_INFO.schedule.map((s) => (
+                <li
+                  key={s.days}
+                  className="flex items-center justify-between gap-4 rounded-lg bg-gray-800/50 px-4 py-3"
+                >
+                  <span className="text-sm text-gray-400">{s.days}</span>
+                  <span
+                    className={`text-sm font-medium ${'closed' in s && s.closed ? 'text-red-400' : 'text-white'}`}
+                  >
+                    {s.hours}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <nav className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+              <Link href="/servicios" className="text-gray-400 hover:text-brand-glow transition-colors">
+                Servicios
+              </Link>
+              <Link href="/galeria" className="text-gray-400 hover:text-brand-glow transition-colors">
+                Galería
+              </Link>
+              <Link href="/contacto" className="text-gray-400 hover:text-brand-glow transition-colors">
+                Contacto
+              </Link>
+            </nav>
+          </div>
+
+          {/* Columna 3: Mapa */}
+          <div>
+            <h3 className="mb-6 flex items-center gap-2 text-base font-semibold text-white">
+              <MapPin className="h-4 w-4 text-brand-cyan" />
+              Cómo llegar
+            </h3>
+            <div className="overflow-hidden rounded-xl border border-gray-700">
+              <iframe
+                src={BUSINESS_INFO.addressMapUrl}
+                width="100%"
+                height="220"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Ubicación de VG Car Service en Google Maps"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="border-t border-gray-800">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-xs text-gray-500">
+            © {year} VG Car Service. Todos los derechos reservados.
+          </p>
+          <p className="text-xs text-gray-500">Barracas, Ciudad de Buenos Aires</p>
+        </div>
+      </div>
+    </footer>
+  );
+}

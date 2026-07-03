@@ -1,0 +1,74 @@
+export interface Servicio {
+  slug: string;
+  icon: 'Wrench' | 'SprayCan' | 'Sparkles' | 'Gauge';
+  title: string;
+  short: string;
+  description: string;
+  features: string[];
+}
+
+export const SERVICIOS: Servicio[] = [
+  {
+    slug: 'mecanica-integral',
+    icon: 'Wrench',
+    title: 'Mecánica integral completa',
+    short: 'Diagnóstico y reparación de todo el vehículo.',
+    description:
+      'Mecánica general de motor, tren delantero, frenos y transmisión. Atendemos todas las marcas con repuestos de calidad.',
+    features: [
+      'Frenos',
+      'Tren delantero y tren trasero',
+      'Cambio de fluidos',
+      'Distribución',
+    ],
+  },
+  {
+    slug: 'chapa-y-pintura',
+    icon: 'SprayCan',
+    title: 'Chapa y pintura',
+    short: 'Restauración de carrocería y color.',
+    description:
+      'Reparación estética de la carrocería: enderezado, masillado y pintura, igualando el color original del vehículo.',
+    features: [
+      'Reparación de abolladuras y golpes',
+      'Masillado y preparación de superficie',
+      'Pintura parcial o completa',
+      'Terminación, pulido y plastificado',
+    ],
+  },
+  {
+    slug: 'estetica-vehicular',
+    icon: 'Sparkles',
+    title: 'Estética de interior y exterior',
+    short: 'Limpieza y detailing de especialidad.',
+    description:
+      'Limpieza profunda y detailing de interior y exterior: polarizado, pulido de ópticas y cristales, abrillantado de carrocería y tratamientos de protección.',
+    features: [
+      'Polarizado',
+      'Pulido de ópticas y cristales',
+      'Abrillantado de carrocería',
+      'Tratamiento acrílico y cerámico',
+      'Limpieza de interior',
+      'Lavado de motor',
+    ],
+  },
+  {
+    slug: 'mantenimiento-general',
+    icon: 'Gauge',
+    title: 'Mantenimiento general',
+    short: 'Service y puesta a punto periódica.',
+    description:
+      'Service preventivo y puesta a punto para que tu vehículo esté siempre en óptimas condiciones y evites problemas mayores.',
+    features: [
+      'Cambio de aceite, filtros y fluidos',
+      'Revisión general de seguridad',
+      'Service por kilometraje',
+      'Puesta a punto integral',
+    ],
+  },
+];
+
+// Aclaración del negocio: la electricidad del automotor no se realiza en el taller,
+// pero se coordina con un profesional especializado.
+export const NOTA_ELECTRICIDAD =
+  'La electricidad del automotor no se realiza en el taller, pero la coordinamos con un profesional especializado de confianza.';

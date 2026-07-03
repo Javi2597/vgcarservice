@@ -1,0 +1,12 @@
+/node_modules
+/.next/
+/out/
+/build
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+.env*.local
+/assets-originales
+
+# Claude Code (settings locales)
+/.claude/settings.local.json
