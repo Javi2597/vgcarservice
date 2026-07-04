@@ -3,6 +3,7 @@ import { ArrowRight, MapPin, Clock, Instagram } from 'lucide-react';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
 import Gallery from '@/components/Gallery';
+import Faq from '@/components/Faq';
 import { BUSINESS_INFO } from '@/lib/utils';
 import { TRABAJOS } from '@/data/galeria';
 
@@ -43,6 +44,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Preguntas frecuentes */}
+      <Faq />
 
       {/* Ubicación / horario CTA */}
       <section className="border-t border-gray-800 bg-gray-900 py-16">
