@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { MapPin, Clock, Car, Instagram } from 'lucide-react';
 import { BUSINESS_INFO } from '@/lib/utils';
 import { WhatsAppIcon } from '@/components/WhatsAppButton';
+import FooterMap from '@/components/FooterMap';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -96,25 +97,8 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* Columna 3: Mapa */}
-          <div>
-            <h3 className="mb-6 flex items-center gap-2 text-base font-semibold text-white">
-              <MapPin className="h-4 w-4 text-brand-cyan" />
-              Cómo llegar
-            </h3>
-            <div className="overflow-hidden rounded-xl border border-gray-700">
-              <iframe
-                src={BUSINESS_INFO.addressMapUrl}
-                width="100%"
-                height="220"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Ubicación de VG Car Service en Google Maps"
-              />
-            </div>
-          </div>
+          {/* Columna 3: Mapa (oculto en /contacto para no duplicarlo) */}
+          <FooterMap />
         </div>
       </div>
 
