@@ -2,15 +2,9 @@
 
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Wrench, SprayCan, Sparkles, Gauge, Zap, type LucideIcon } from 'lucide-react';
-import { SERVICIOS, NOTA_ELECTRICIDAD, type Servicio } from '@/data/servicios';
-
-const ICONS: Record<Servicio['icon'], LucideIcon> = {
-  Wrench,
-  SprayCan,
-  Sparkles,
-  Gauge,
-};
+import { Zap } from 'lucide-react';
+import { SERVICIOS, NOTA_ELECTRICIDAD } from '@/data/servicios';
+import ServiceIcon from '@/components/ServiceIcon';
 
 const cardVariants = {
   hidden: { opacity: 0, y: 40 },
@@ -53,7 +47,6 @@ export default function Services({ detailed = false, heading = true }: ServicesP
           className={`grid gap-6 sm:grid-cols-2 ${detailed ? 'lg:grid-cols-2' : 'lg:grid-cols-4'}`}
         >
           {SERVICIOS.map((service, i) => {
-            const Icon = ICONS[service.icon];
             return (
               <motion.div
                 key={service.slug}
@@ -63,8 +56,8 @@ export default function Services({ detailed = false, heading = true }: ServicesP
                 animate={inView ? 'visible' : 'hidden'}
                 className="group flex flex-col rounded-2xl border border-gray-700/60 bg-gray-800/50 p-8 transition-all duration-300 hover:border-brand-cyan/50 hover:bg-gray-800"
               >
-                <div className="mb-5 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-brand-cyan/10 text-brand-cyan group-hover:bg-brand-cyan/20 transition-colors">
-                  <Icon className="h-7 w-7" />
+                <div className="mb-5 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-brand-cyan/10 group-hover:bg-brand-cyan/20 transition-colors">
+                  <ServiceIcon name={service.icon} className="h-9 w-9" />
                 </div>
 
                 <h3 className="mb-3 text-xl font-bold text-white">{service.title}</h3>

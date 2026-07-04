@@ -1,6 +1,6 @@
 export interface Servicio {
   slug: string;
-  icon: 'Wrench' | 'SprayCan' | 'Sparkles' | 'Gauge';
+  icon: 'gears' | 'spray' | 'shine' | 'checklist';
   title: string;
   short: string;
   description: string;
@@ -10,7 +10,7 @@ export interface Servicio {
 export const SERVICIOS: Servicio[] = [
   {
     slug: 'mecanica-integral',
-    icon: 'Wrench',
+    icon: 'gears',
     title: 'Mecánica integral completa',
     short: 'Diagnóstico y reparación de todo el vehículo.',
     description:
@@ -24,7 +24,7 @@ export const SERVICIOS: Servicio[] = [
   },
   {
     slug: 'chapa-y-pintura',
-    icon: 'SprayCan',
+    icon: 'spray',
     title: 'Chapa y pintura',
     short: 'Restauración de carrocería y color.',
     description:
@@ -38,7 +38,7 @@ export const SERVICIOS: Servicio[] = [
   },
   {
     slug: 'estetica-vehicular',
-    icon: 'Sparkles',
+    icon: 'shine',
     title: 'Estética de interior y exterior',
     short: 'Limpieza y detailing de especialidad.',
     description:
@@ -54,7 +54,7 @@ export const SERVICIOS: Servicio[] = [
   },
   {
     slug: 'mantenimiento-general',
-    icon: 'Gauge',
+    icon: 'checklist',
     title: 'Mantenimiento general',
     short: 'Service y puesta a punto periódica.',
     description:
