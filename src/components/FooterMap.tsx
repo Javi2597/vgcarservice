@@ -1,8 +1,8 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import { MapPin } from 'lucide-react';
 import { BUSINESS_INFO } from '@/lib/utils';
+import AnimatedMapPin from '@/components/icons/AnimatedMapPin';
 
 export default function FooterMap() {
   const pathname = usePathname();
@@ -12,7 +12,7 @@ export default function FooterMap() {
   return (
     <div>
       <h3 className="mb-6 flex items-center gap-2 text-base font-semibold text-white">
-        <MapPin className="h-4 w-4 text-brand-cyan" />
+        <AnimatedMapPin className="h-4 w-4 text-brand-cyan" />
         Cómo llegar
       </h3>
       <div className="overflow-hidden rounded-xl border border-gray-700">

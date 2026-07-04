@@ -1,5 +1,8 @@
 import Link from 'next/link';
-import { MapPin, Clock, Car, Instagram } from 'lucide-react';
+import { Car } from 'lucide-react';
+import AnimatedMapPin from '@/components/icons/AnimatedMapPin';
+import AnimatedClock from '@/components/icons/AnimatedClock';
+import InstagramGradientIcon from '@/components/icons/InstagramGradientIcon';
 import { BUSINESS_INFO } from '@/lib/utils';
 import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import FooterMap from '@/components/FooterMap';
@@ -34,7 +37,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 text-sm text-gray-300 transition-colors hover:text-brand-glow"
                 >
-                  <MapPin className="h-4 w-4 shrink-0 mt-0.5 text-brand-cyan" />
+                  <AnimatedMapPin className="h-4 w-4 shrink-0 mt-0.5 text-brand-cyan" />
                   {BUSINESS_INFO.address}
                 </a>
               </li>
@@ -54,9 +57,9 @@ export default function Footer() {
                   href={BUSINESS_INFO.instagramUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-sm text-gray-300 transition-colors hover:text-brand-glow"
+                  className="group flex items-center gap-3 text-sm text-gray-300 transition-colors hover:text-brand-glow"
                 >
-                  <Instagram className="h-4 w-4 shrink-0 text-brand-cyan" />
+                  <InstagramGradientIcon className="h-4 w-4 shrink-0" />
                   {BUSINESS_INFO.instagram}
                 </a>
               </li>
@@ -66,7 +69,7 @@ export default function Footer() {
           {/* Columna 2: Horarios + links */}
           <div>
             <h3 className="mb-6 flex items-center gap-2 text-base font-semibold text-white">
-              <Clock className="h-4 w-4 text-brand-cyan" />
+              <AnimatedClock className="h-4 w-4 text-brand-cyan" />
               Horarios de atención
             </h3>
             <ul className="space-y-3">

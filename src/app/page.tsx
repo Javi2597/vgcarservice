@@ -1,5 +1,8 @@
 import Link from 'next/link';
-import { ArrowRight, MapPin, Clock, Instagram } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import AnimatedMapPin from '@/components/icons/AnimatedMapPin';
+import AnimatedClock from '@/components/icons/AnimatedClock';
+import InstagramGradientIcon from '@/components/icons/InstagramGradientIcon';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
 import Gallery from '@/components/Gallery';
@@ -53,14 +56,14 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-6 sm:grid-cols-3">
             <div className="flex items-start gap-4 rounded-2xl border border-gray-700/60 bg-gray-800/50 p-6">
-              <MapPin className="h-6 w-6 shrink-0 text-brand-cyan" />
+              <AnimatedMapPin className="h-6 w-6 shrink-0 text-brand-cyan" />
               <div>
                 <h3 className="font-semibold text-white">Dónde estamos</h3>
                 <p className="mt-1 text-sm text-gray-400">{BUSINESS_INFO.address}</p>
               </div>
             </div>
             <div className="flex items-start gap-4 rounded-2xl border border-gray-700/60 bg-gray-800/50 p-6">
-              <Clock className="h-6 w-6 shrink-0 text-brand-cyan" />
+              <AnimatedClock className="h-6 w-6 shrink-0 text-brand-cyan" />
               <div>
                 <h3 className="font-semibold text-white">Horario</h3>
                 <p className="mt-1 text-sm text-gray-400">{BUSINESS_INFO.scheduleShort}</p>
@@ -70,9 +73,9 @@ export default function HomePage() {
               href={BUSINESS_INFO.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-start gap-4 rounded-2xl border border-gray-700/60 bg-gray-800/50 p-6 transition-colors hover:border-brand-cyan/50 hover:bg-gray-800"
+              className="group flex items-start gap-4 rounded-2xl border border-gray-700/60 bg-gray-800/50 p-6 transition-colors hover:border-brand-cyan/50 hover:bg-gray-800"
             >
-              <Instagram className="h-6 w-6 shrink-0 text-brand-cyan" />
+              <InstagramGradientIcon className="h-6 w-6 shrink-0" />
               <div>
                 <h3 className="font-semibold text-white">Seguinos</h3>
                 <p className="mt-1 text-sm text-gray-400">{BUSINESS_INFO.instagram}</p>

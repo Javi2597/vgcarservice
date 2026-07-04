@@ -2,9 +2,9 @@
 
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Zap } from 'lucide-react';
 import { SERVICIOS, NOTA_ELECTRICIDAD } from '@/data/servicios';
 import ServiceIcon from '@/components/ServiceIcon';
+import AnimatedZap from '@/components/icons/AnimatedZap';
 
 const cardVariants = {
   hidden: { opacity: 0, y: 40 },
@@ -82,7 +82,7 @@ export default function Services({ detailed = false, heading = true }: ServicesP
 
         {/* Aclaración electricidad */}
         <div className="mt-10 flex items-start gap-3 rounded-xl border border-gray-700/60 bg-gray-800/40 p-5 text-sm text-gray-300">
-          <Zap className="h-5 w-5 shrink-0 text-brand-glow" />
+          <AnimatedZap className="h-5 w-5 shrink-0 text-brand-glow" />
           <p>{NOTA_ELECTRICIDAD}</p>
         </div>
       </div>

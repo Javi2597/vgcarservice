@@ -3,8 +3,9 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Car, Menu, X, Instagram } from 'lucide-react';
+import { Car, Menu, X } from 'lucide-react';
 import { cn, BUSINESS_INFO } from '@/lib/utils';
+import InstagramGradientIcon from '@/components/icons/InstagramGradientIcon';
 
 const NAV_LINKS = [
   { href: '/', label: 'Inicio' },
@@ -80,9 +81,9 @@ export default function Navbar() {
               href={BUSINESS_INFO.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-lg bg-white/10 px-3 py-1.5 text-sm font-medium text-white transition-colors hover:bg-white/20"
+              className="group inline-flex items-center gap-1.5 rounded-lg bg-white/10 px-3 py-1.5 text-sm font-medium text-white transition-colors hover:bg-white/20"
             >
-              <Instagram className="h-4 w-4" />
+              <InstagramGradientIcon className="h-4 w-4" />
               {BUSINESS_INFO.instagram}
             </a>
           </li>
@@ -124,9 +125,9 @@ export default function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={closeMenu}
-                className="flex items-center gap-2 px-4 py-3 rounded-lg font-medium text-gray-300 transition-colors hover:bg-gray-800 hover:text-white"
+                className="group flex items-center gap-2 px-4 py-3 rounded-lg font-medium text-gray-300 transition-colors hover:bg-gray-800 hover:text-white"
               >
-                <Instagram className="h-5 w-5" />
+                <InstagramGradientIcon className="h-5 w-5" />
                 {BUSINESS_INFO.instagram}
               </a>
             </li>

@@ -1,0 +1,103 @@
+/* Micro-animaciones de íconos (rayo, mapa, reloj). */
+
+/* ---------- Rayo + chispas ---------- */
+.zapWrap {
+  position: relative;
+  display: inline-flex;
+}
+.bolt {
+  animation: bolt-flicker 2.4s ease-in-out infinite;
+}
+.spark {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 9999px;
+  background: currentColor;
+  opacity: 0;
+}
+.sparkA {
+  top: 4%;
+  right: 6%;
+  animation: spark-pop 2.4s ease-in-out 0.1s infinite;
+}
+.sparkB {
+  top: 44%;
+  right: -6%;
+  animation: spark-pop 2.4s ease-in-out 0.7s infinite;
+}
+.sparkC {
+  bottom: 6%;
+  left: 2%;
+  animation: spark-pop 2.4s ease-in-out 1.3s infinite;
+}
+@keyframes bolt-flicker {
+  0%, 44%, 100% { opacity: 1; }
+  48% { opacity: 0.55; }
+  52% { opacity: 1; }
+  56% { opacity: 0.7; }
+}
+@keyframes spark-pop {
+  0%, 60%, 100% { opacity: 0; transform: scale(0.3) translate(0, 0); }
+  68% { opacity: 1; transform: scale(1) translate(2px, -2px); }
+  84% { opacity: 0; transform: scale(0.4) translate(4px, -4px); }
+}
+
+/* ---------- Pin de mapa + ping de radar ---------- */
+.pinWrap {
+  position: relative;
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.ping {
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  width: 60%;
+  height: 60%;
+  transform: translate(-50%, -50%);
+  border-radius: 9999px;
+  border: 1.5px solid currentColor;
+  opacity: 0;
+  animation: radar-ping 2.6s ease-out infinite;
+}
+.pin {
+  position: relative;
+  animation: pin-bob 2.6s ease-in-out infinite;
+}
+@keyframes radar-ping {
+  0% { transform: translate(-50%, -50%) scale(0.35); opacity: 0.6; }
+  70% { opacity: 0; }
+  100% { transform: translate(-50%, -50%) scale(2.2); opacity: 0; }
+}
+@keyframes pin-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-1.5px); }
+}
+
+/* ---------- Reloj con agujas girando ---------- */
+.handMinute {
+  transform-origin: 12px 12px;
+  animation: hand-spin 6s linear infinite;
+}
+.handHour {
+  transform-origin: 12px 12px;
+  animation: hand-spin 36s linear infinite;
+}
+@keyframes hand-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bolt,
+  .spark,
+  .ping,
+  .pin,
+  .handMinute,
+  .handHour {
+    animation: none !important;
+  }
+  .spark { opacity: 0; }
+  .ping { opacity: 0; }
+}

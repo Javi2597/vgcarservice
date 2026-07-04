@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
-import { MapPin, Clock, Instagram, Navigation } from 'lucide-react';
+import { Navigation } from 'lucide-react';
+import AnimatedMapPin from '@/components/icons/AnimatedMapPin';
+import AnimatedClock from '@/components/icons/AnimatedClock';
+import InstagramGradientIcon from '@/components/icons/InstagramGradientIcon';
 import { BUSINESS_INFO } from '@/lib/utils';
 import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import WhatsAppForm from '@/components/WhatsAppForm';
@@ -48,7 +51,7 @@ export default function ContactoPage() {
               </div>
 
               <div className="flex items-start gap-4 rounded-2xl border border-gray-700/60 bg-gray-800/50 p-6">
-                <MapPin className="h-6 w-6 shrink-0 text-brand-cyan" />
+                <AnimatedMapPin className="h-6 w-6 shrink-0 text-brand-cyan" />
                 <div>
                   <h2 className="font-semibold text-white">Dirección</h2>
                   <p className="mt-1 text-gray-400">{BUSINESS_INFO.address}</p>
@@ -65,7 +68,7 @@ export default function ContactoPage() {
               </div>
 
               <div className="flex items-start gap-4 rounded-2xl border border-gray-700/60 bg-gray-800/50 p-6">
-                <Clock className="h-6 w-6 shrink-0 text-brand-cyan" />
+                <AnimatedClock className="h-6 w-6 shrink-0 text-brand-cyan" />
                 <div className="w-full">
                   <h2 className="font-semibold text-white">Horario de atención</h2>
                   <ul className="mt-3 space-y-2">
@@ -90,9 +93,9 @@ export default function ContactoPage() {
                 href={BUSINESS_INFO.instagramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-start gap-4 rounded-2xl border border-gray-700/60 bg-gray-800/50 p-6 transition-colors hover:border-brand-cyan/50 hover:bg-gray-800"
+                className="group flex items-start gap-4 rounded-2xl border border-gray-700/60 bg-gray-800/50 p-6 transition-colors hover:border-brand-cyan/50 hover:bg-gray-800"
               >
-                <Instagram className="h-6 w-6 shrink-0 text-brand-cyan" />
+                <InstagramGradientIcon className="h-6 w-6 shrink-0" />
                 <div>
                   <h2 className="font-semibold text-white">Instagram</h2>
                   <p className="mt-1 text-gray-400">
