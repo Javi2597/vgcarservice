@@ -41,368 +41,368 @@ export const SERVICIOS: ServicioFiltro[] = [
 
 export const TRABAJOS: TrabajoGaleria[] = [
   {
-    "id": "mecanica--peugeot-206",
-    "vehiculo": "Peugeot 206",
+    "id": "mecanica--peugeot-205",
+    "vehiculo": "Peugeot 205",
     "servicioSlug": "mecanica",
     "servicio": "Mecánica",
-    "titulo": "Peugeot 206 · Mecánica",
+    "titulo": "Peugeot 205 · Mecánica",
     "antes": [
       {
-        "src": "/galeria/mecanica/peugeot-206/antes/peugeot-206-motor-antes-01-20220124.jpg",
-        "alt": "motor (antes) — Peugeot 206",
+        "src": "/galeria/mecanica/peugeot-205/antes/peugeot-205-motor-antes-01-20220124.jpg",
+        "alt": "motor (antes) — Peugeot 205",
         "parte": "motor"
       },
       {
-        "src": "/galeria/mecanica/peugeot-206/antes/peugeot-206-motor-antes-02-20220124.jpg",
-        "alt": "motor (antes) — Peugeot 206",
+        "src": "/galeria/mecanica/peugeot-205/antes/peugeot-205-motor-antes-02-20220124.jpg",
+        "alt": "motor (antes) — Peugeot 205",
         "parte": "motor"
       },
       {
-        "src": "/galeria/mecanica/peugeot-206/antes/peugeot-206-motor-antes-03-20220124.jpg",
-        "alt": "motor (antes) — Peugeot 206",
+        "src": "/galeria/mecanica/peugeot-205/antes/peugeot-205-motor-antes-03-20220124.jpg",
+        "alt": "motor (antes) — Peugeot 205",
         "parte": "motor"
       },
       {
-        "src": "/galeria/mecanica/peugeot-206/antes/peugeot-206-motor-antes-04-20220124.jpg",
-        "alt": "motor (antes) — Peugeot 206",
+        "src": "/galeria/mecanica/peugeot-205/antes/peugeot-205-motor-antes-04-20220124.jpg",
+        "alt": "motor (antes) — Peugeot 205",
         "parte": "motor"
       },
       {
-        "src": "/galeria/mecanica/peugeot-206/antes/peugeot-206-motor-antes-05-20220124.jpg",
-        "alt": "motor (antes) — Peugeot 206",
+        "src": "/galeria/mecanica/peugeot-205/antes/peugeot-205-motor-antes-05-20220124.jpg",
+        "alt": "motor (antes) — Peugeot 205",
         "parte": "motor"
       },
       {
-        "src": "/galeria/mecanica/peugeot-206/antes/peugeot-206-motor-antes-06-20220124.jpg",
-        "alt": "motor (antes) — Peugeot 206",
+        "src": "/galeria/mecanica/peugeot-205/antes/peugeot-205-motor-antes-06-20220124.jpg",
+        "alt": "motor (antes) — Peugeot 205",
         "parte": "motor"
       },
       {
-        "src": "/galeria/mecanica/peugeot-206/antes/peugeot-206-motor-antes-07-20220124.jpg",
-        "alt": "motor (antes) — Peugeot 206",
+        "src": "/galeria/mecanica/peugeot-205/antes/peugeot-205-motor-antes-07-20220124.jpg",
+        "alt": "motor (antes) — Peugeot 205",
         "parte": "motor"
       },
       {
-        "src": "/galeria/mecanica/peugeot-206/antes/peugeot-206-motor-antes-08-20220124.jpg",
-        "alt": "motor (antes) — Peugeot 206",
+        "src": "/galeria/mecanica/peugeot-205/antes/peugeot-205-motor-antes-08-20220124.jpg",
+        "alt": "motor (antes) — Peugeot 205",
         "parte": "motor"
       }
     ],
     "despues": [],
-    "portada": "/galeria/mecanica/peugeot-206/antes/peugeot-206-motor-antes-01-20220124.jpg",
+    "portada": "/galeria/mecanica/peugeot-205/antes/peugeot-205-motor-antes-01-20220124.jpg",
     "totalFotos": 8
   },
   {
-    "id": "detailing-interior--peugeot-206",
-    "vehiculo": "Peugeot 206",
+    "id": "detailing-interior--peugeot-205",
+    "vehiculo": "Peugeot 205",
     "servicioSlug": "detailing-interior",
     "servicio": "Estética interior",
-    "titulo": "Peugeot 206 · Estética interior",
+    "titulo": "Peugeot 205 · Estética interior",
     "antes": [
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-apoyacabezas-antes-01-20220805.jpg",
-        "alt": "apoyacabezas (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-apoyacabezas-antes-01-20220805.jpg",
+        "alt": "apoyacabezas (antes) — Peugeot 205",
         "parte": "apoyacabezas"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-apoyacabezas-antes-02-20220805.jpg",
-        "alt": "apoyacabezas (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-apoyacabezas-antes-02-20220805.jpg",
+        "alt": "apoyacabezas (antes) — Peugeot 205",
         "parte": "apoyacabezas"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-apoyacabezas-antes-03-20220805.jpg",
-        "alt": "apoyacabezas (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-apoyacabezas-antes-03-20220805.jpg",
+        "alt": "apoyacabezas (antes) — Peugeot 205",
         "parte": "apoyacabezas"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-baul-antes-01-20220124.jpg",
-        "alt": "baul (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-baul-antes-01-20220124.jpg",
+        "alt": "baul (antes) — Peugeot 205",
         "parte": "baul"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-butaca-delantera-antes-01-20220124.jpg",
-        "alt": "butaca delantera (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-delantera-antes-01-20220124.jpg",
+        "alt": "butaca delantera (antes) — Peugeot 205",
         "parte": "butaca delantera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-butaca-delantera-antes-02-20220314.jpg",
-        "alt": "butaca delantera (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-delantera-antes-02-20220314.jpg",
+        "alt": "butaca delantera (antes) — Peugeot 205",
         "parte": "butaca delantera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-butaca-delantera-antes-03-20220801.jpg",
-        "alt": "butaca delantera (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-delantera-antes-03-20220801.jpg",
+        "alt": "butaca delantera (antes) — Peugeot 205",
         "parte": "butaca delantera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-butaca-delantera-antes-04-20220801.jpg",
-        "alt": "butaca delantera (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-delantera-antes-04-20220801.jpg",
+        "alt": "butaca delantera (antes) — Peugeot 205",
         "parte": "butaca delantera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-butaca-trasera-antes-01-20220124.jpg",
-        "alt": "butaca trasera (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-trasera-antes-01-20220124.jpg",
+        "alt": "butaca trasera (antes) — Peugeot 205",
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-butaca-trasera-antes-02-20220124.jpg",
-        "alt": "butaca trasera (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-trasera-antes-02-20220124.jpg",
+        "alt": "butaca trasera (antes) — Peugeot 205",
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-butaca-trasera-antes-03-20220303.jpg",
-        "alt": "butaca trasera (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-trasera-antes-03-20220303.jpg",
+        "alt": "butaca trasera (antes) — Peugeot 205",
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-butaca-trasera-antes-04-20220303.jpg",
-        "alt": "butaca trasera (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-trasera-antes-04-20220303.jpg",
+        "alt": "butaca trasera (antes) — Peugeot 205",
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-butaca-trasera-antes-05-20220303.jpg",
-        "alt": "butaca trasera (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-trasera-antes-05-20220303.jpg",
+        "alt": "butaca trasera (antes) — Peugeot 205",
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-butaca-trasera-antes-06-20220303.jpg",
-        "alt": "butaca trasera (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-trasera-antes-06-20220303.jpg",
+        "alt": "butaca trasera (antes) — Peugeot 205",
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-interior-general-antes-01-20220124.jpg",
-        "alt": "interior general (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-interior-general-antes-01-20220124.jpg",
+        "alt": "interior general (antes) — Peugeot 205",
         "parte": "interior general"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-interior-general-antes-02-20220713.jpg",
-        "alt": "interior general (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-interior-general-antes-02-20220713.jpg",
+        "alt": "interior general (antes) — Peugeot 205",
         "parte": "interior general"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-interior-general-antes-03-20220714.jpg",
-        "alt": "interior general (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-interior-general-antes-03-20220714.jpg",
+        "alt": "interior general (antes) — Peugeot 205",
         "parte": "interior general"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-panel-puerta-antes-01-20220718.jpg",
-        "alt": "panel puerta (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-panel-puerta-antes-01-20220718.jpg",
+        "alt": "panel puerta (antes) — Peugeot 205",
         "parte": "panel puerta"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-panel-puerta-antes-02-20220718.jpg",
-        "alt": "panel puerta (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-panel-puerta-antes-02-20220718.jpg",
+        "alt": "panel puerta (antes) — Peugeot 205",
         "parte": "panel puerta"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-parante-antes-01-20220718.jpg",
-        "alt": "parante (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-parante-antes-01-20220718.jpg",
+        "alt": "parante (antes) — Peugeot 205",
         "parte": "parante"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-parante-antes-02-20220718.jpg",
-        "alt": "parante (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-parante-antes-02-20220718.jpg",
+        "alt": "parante (antes) — Peugeot 205",
         "parte": "parante"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-parante-antes-03-20220718.jpg",
-        "alt": "parante (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-parante-antes-03-20220718.jpg",
+        "alt": "parante (antes) — Peugeot 205",
         "parte": "parante"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-tablero-antes-01-20220124.jpg",
-        "alt": "tablero (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-tablero-antes-01-20220124.jpg",
+        "alt": "tablero (antes) — Peugeot 205",
         "parte": "tablero"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-tablero-antes-02-20220124.jpg",
-        "alt": "tablero (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-tablero-antes-02-20220124.jpg",
+        "alt": "tablero (antes) — Peugeot 205",
         "parte": "tablero"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-tablero-antes-03-20220124.jpg",
-        "alt": "tablero (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-tablero-antes-03-20220124.jpg",
+        "alt": "tablero (antes) — Peugeot 205",
         "parte": "tablero"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-tablero-antes-04-20220721.jpg",
-        "alt": "tablero (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-tablero-antes-04-20220721.jpg",
+        "alt": "tablero (antes) — Peugeot 205",
         "parte": "tablero"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-tablero-antes-05-20220722.jpg",
-        "alt": "tablero (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-tablero-antes-05-20220722.jpg",
+        "alt": "tablero (antes) — Peugeot 205",
         "parte": "tablero"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-tablero-antes-06-20220722.jpg",
-        "alt": "tablero (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-tablero-antes-06-20220722.jpg",
+        "alt": "tablero (antes) — Peugeot 205",
         "parte": "tablero"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-tablero-antes-07-20220722.jpg",
-        "alt": "tablero (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-tablero-antes-07-20220722.jpg",
+        "alt": "tablero (antes) — Peugeot 205",
         "parte": "tablero"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-techo-antes-01-20220712.jpg",
-        "alt": "techo (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-techo-antes-01-20220712.jpg",
+        "alt": "techo (antes) — Peugeot 205",
         "parte": "techo"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-techo-antes-02-20220712.jpg",
-        "alt": "techo (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-techo-antes-02-20220712.jpg",
+        "alt": "techo (antes) — Peugeot 205",
         "parte": "techo"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-techo-antes-03-20220712.jpg",
-        "alt": "techo (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-techo-antes-03-20220712.jpg",
+        "alt": "techo (antes) — Peugeot 205",
         "parte": "techo"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-techo-antes-04-20220712.jpg",
-        "alt": "techo (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-techo-antes-04-20220712.jpg",
+        "alt": "techo (antes) — Peugeot 205",
         "parte": "techo"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-techo-antes-05-20220712.jpg",
-        "alt": "techo (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-techo-antes-05-20220712.jpg",
+        "alt": "techo (antes) — Peugeot 205",
         "parte": "techo"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-techo-antes-06-20220712.jpg",
-        "alt": "techo (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-techo-antes-06-20220712.jpg",
+        "alt": "techo (antes) — Peugeot 205",
         "parte": "techo"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/antes/peugeot-206-techo-antes-07-20220713.jpg",
-        "alt": "techo (antes) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-techo-antes-07-20220713.jpg",
+        "alt": "techo (antes) — Peugeot 205",
         "parte": "techo"
       }
     ],
     "despues": [
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-apoyacabezas-despues-01-20220805.jpg",
-        "alt": "apoyacabezas (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-apoyacabezas-despues-01-20220805.jpg",
+        "alt": "apoyacabezas (despues) — Peugeot 205",
         "parte": "apoyacabezas"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-butaca-delantera-despues-01-20220805.jpg",
-        "alt": "butaca delantera (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-butaca-delantera-despues-01-20220805.jpg",
+        "alt": "butaca delantera (despues) — Peugeot 205",
         "parte": "butaca delantera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-butaca-delantera-despues-02-20220805.jpg",
-        "alt": "butaca delantera (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-butaca-delantera-despues-02-20220805.jpg",
+        "alt": "butaca delantera (despues) — Peugeot 205",
         "parte": "butaca delantera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-butaca-trasera-despues-01-20220303.jpg",
-        "alt": "butaca trasera (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-butaca-trasera-despues-01-20220303.jpg",
+        "alt": "butaca trasera (despues) — Peugeot 205",
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-butaca-trasera-despues-02-20220304.jpg",
-        "alt": "butaca trasera (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-butaca-trasera-despues-02-20220304.jpg",
+        "alt": "butaca trasera (despues) — Peugeot 205",
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-butaca-trasera-despues-03-20220304.jpg",
-        "alt": "butaca trasera (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-butaca-trasera-despues-03-20220304.jpg",
+        "alt": "butaca trasera (despues) — Peugeot 205",
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-butaca-trasera-despues-04-20220314.jpg",
-        "alt": "butaca trasera (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-butaca-trasera-despues-04-20220314.jpg",
+        "alt": "butaca trasera (despues) — Peugeot 205",
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-butaca-trasera-despues-05-20220805.jpg",
-        "alt": "butaca trasera (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-butaca-trasera-despues-05-20220805.jpg",
+        "alt": "butaca trasera (despues) — Peugeot 205",
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-interior-general-despues-01-20220805.jpg",
-        "alt": "interior general (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-interior-general-despues-01-20220805.jpg",
+        "alt": "interior general (despues) — Peugeot 205",
         "parte": "interior general"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-panel-puerta-despues-01-20220718.jpg",
-        "alt": "panel puerta (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-panel-puerta-despues-01-20220718.jpg",
+        "alt": "panel puerta (despues) — Peugeot 205",
         "parte": "panel puerta"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-panel-puerta-despues-02-20220718.jpg",
-        "alt": "panel puerta (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-panel-puerta-despues-02-20220718.jpg",
+        "alt": "panel puerta (despues) — Peugeot 205",
         "parte": "panel puerta"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-panel-puerta-despues-03-20220718.jpg",
-        "alt": "panel puerta (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-panel-puerta-despues-03-20220718.jpg",
+        "alt": "panel puerta (despues) — Peugeot 205",
         "parte": "panel puerta"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-panel-puerta-despues-04-20220720.jpg",
-        "alt": "panel puerta (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-panel-puerta-despues-04-20220720.jpg",
+        "alt": "panel puerta (despues) — Peugeot 205",
         "parte": "panel puerta"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-panel-puerta-despues-05-20220720.jpg",
-        "alt": "panel puerta (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-panel-puerta-despues-05-20220720.jpg",
+        "alt": "panel puerta (despues) — Peugeot 205",
         "parte": "panel puerta"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-panel-puerta-despues-06-20220720.jpg",
-        "alt": "panel puerta (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-panel-puerta-despues-06-20220720.jpg",
+        "alt": "panel puerta (despues) — Peugeot 205",
         "parte": "panel puerta"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-panel-puerta-despues-07-20220720.jpg",
-        "alt": "panel puerta (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-panel-puerta-despues-07-20220720.jpg",
+        "alt": "panel puerta (despues) — Peugeot 205",
         "parte": "panel puerta"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-parante-despues-01-20220718.jpg",
-        "alt": "parante (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-parante-despues-01-20220718.jpg",
+        "alt": "parante (despues) — Peugeot 205",
         "parte": "parante"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-parante-despues-02-20220718.jpg",
-        "alt": "parante (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-parante-despues-02-20220718.jpg",
+        "alt": "parante (despues) — Peugeot 205",
         "parte": "parante"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-pieza-despues-01-20220722.jpg",
-        "alt": "pieza (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-pieza-despues-01-20220722.jpg",
+        "alt": "pieza (despues) — Peugeot 205",
         "parte": "pieza"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-pieza-despues-02-20220722.jpg",
-        "alt": "pieza (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-pieza-despues-02-20220722.jpg",
+        "alt": "pieza (despues) — Peugeot 205",
         "parte": "pieza"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-tablero-despues-01-20220720.jpg",
-        "alt": "tablero (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-tablero-despues-01-20220720.jpg",
+        "alt": "tablero (despues) — Peugeot 205",
         "parte": "tablero"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-tablero-despues-02-20220722.jpg",
-        "alt": "tablero (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-tablero-despues-02-20220722.jpg",
+        "alt": "tablero (despues) — Peugeot 205",
         "parte": "tablero"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-tablero-despues-03-20220722.jpg",
-        "alt": "tablero (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-tablero-despues-03-20220722.jpg",
+        "alt": "tablero (despues) — Peugeot 205",
         "parte": "tablero"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-techo-despues-01-20220712.jpg",
-        "alt": "techo (despues) — Peugeot 206",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-techo-despues-01-20220712.jpg",
+        "alt": "techo (despues) — Peugeot 205",
         "parte": "techo"
       }
     ],
-    "portada": "/galeria/detailing-interior/peugeot-206/despues/peugeot-206-apoyacabezas-despues-01-20220805.jpg",
+    "portada": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-apoyacabezas-despues-01-20220805.jpg",
     "totalFotos": 60
   },
   {
@@ -930,206 +930,206 @@ export const TRABAJOS: TrabajoGaleria[] = [
     "totalFotos": 25
   },
   {
-    "id": "pulido-exterior--peugeot-206",
-    "vehiculo": "Peugeot 206",
+    "id": "pulido-exterior--peugeot-205",
+    "vehiculo": "Peugeot 205",
     "servicioSlug": "pulido-exterior",
     "servicio": "Pulido y estética exterior",
-    "titulo": "Peugeot 206 · Pulido y estética exterior",
+    "titulo": "Peugeot 205 · Pulido y estética exterior",
     "antes": [
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-01-20220124.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-01-20220124.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-02-20220124.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-02-20220124.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-03-20220124.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-03-20220124.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-04-20220124.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-04-20220124.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-05-20220124.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-05-20220124.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-06-20220124.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-06-20220124.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-07-20220124.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-07-20220124.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-08-20220125.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-08-20220125.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-09-20220125.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-09-20220125.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-10-20220128.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-10-20220128.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-11-20220712.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-11-20220712.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-completo-antes-12-20220718.jpg",
-        "alt": "exterior completo (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-completo-antes-12-20220718.jpg",
+        "alt": "exterior completo (antes) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/antes/peugeot-206-exterior-panel-antes-01-20220128.jpg",
-        "alt": "exterior panel (antes) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/antes/peugeot-205-exterior-panel-antes-01-20220128.jpg",
+        "alt": "exterior panel (antes) — Peugeot 205",
         "parte": "exterior panel"
       }
     ],
     "despues": [
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-completo-despues-01-20220128.jpg",
-        "alt": "exterior completo (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-completo-despues-01-20220128.jpg",
+        "alt": "exterior completo (despues) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-completo-despues-02-20220128.jpg",
-        "alt": "exterior completo (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-completo-despues-02-20220128.jpg",
+        "alt": "exterior completo (despues) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-completo-despues-03-20220128.jpg",
-        "alt": "exterior completo (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-completo-despues-03-20220128.jpg",
+        "alt": "exterior completo (despues) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-completo-despues-04-20220128.jpg",
-        "alt": "exterior completo (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-completo-despues-04-20220128.jpg",
+        "alt": "exterior completo (despues) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-completo-despues-05-20220314.jpg",
-        "alt": "exterior completo (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-completo-despues-05-20220314.jpg",
+        "alt": "exterior completo (despues) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-completo-despues-06-20220314.jpg",
-        "alt": "exterior completo (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-completo-despues-06-20220314.jpg",
+        "alt": "exterior completo (despues) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-completo-despues-07-20220407.jpg",
-        "alt": "exterior completo (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-completo-despues-07-20220407.jpg",
+        "alt": "exterior completo (despues) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-completo-despues-08-20220523.jpg",
-        "alt": "exterior completo (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-completo-despues-08-20220523.jpg",
+        "alt": "exterior completo (despues) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-completo-despues-09-20220523.jpg",
-        "alt": "exterior completo (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-completo-despues-09-20220523.jpg",
+        "alt": "exterior completo (despues) — Peugeot 205",
         "parte": "exterior completo"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-01-20220126.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-01-20220126.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-02-20220126.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-02-20220126.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-03-20220127.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-03-20220127.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-04-20220127.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-04-20220127.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-05-20220127.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-05-20220127.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-06-20220127.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-06-20220127.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-07-20220127.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-07-20220127.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-08-20220128.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-08-20220128.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-09-20220128.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-09-20220128.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-10-20220128.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-10-20220128.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-11-20220128.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-11-20220128.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-12-20220523.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-12-20220523.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-13-20220720.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-13-20220720.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-14-20220720.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-14-20220720.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-15-20220720.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-15-20220720.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       },
       {
-        "src": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-panel-despues-16-20220720.jpg",
-        "alt": "exterior panel (despues) — Peugeot 206",
+        "src": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-panel-despues-16-20220720.jpg",
+        "alt": "exterior panel (despues) — Peugeot 205",
         "parte": "exterior panel"
       }
     ],
-    "portada": "/galeria/pulido-exterior/peugeot-206/despues/peugeot-206-exterior-completo-despues-01-20220128.jpg",
+    "portada": "/galeria/pulido-exterior/peugeot-205/despues/peugeot-205-exterior-completo-despues-01-20220128.jpg",
     "totalFotos": 38
   },
   {

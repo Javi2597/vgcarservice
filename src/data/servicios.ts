@@ -68,7 +68,6 @@ export const SERVICIOS: Servicio[] = [
   },
 ];
 
-// Aclaración del negocio: la electricidad del automotor no se realiza en el taller,
-// pero se coordina con un profesional especializado.
+// Aclaración del negocio: la electricidad del automotor se realiza en el taller.
 export const NOTA_ELECTRICIDAD =
-  'La electricidad del automotor no se realiza en el taller, pero la coordinamos con un profesional especializado de confianza.';
+  'También realizamos electricidad del automotor en el taller.';
