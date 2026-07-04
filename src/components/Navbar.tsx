@@ -24,6 +24,16 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Cerrar el menú mobile con Escape.
+  useEffect(() => {
+    if (!menuOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMenuOpen(false);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [menuOpen]);
+
   const closeMenu = () => setMenuOpen(false);
 
   return (
@@ -54,6 +64,7 @@ export default function Navbar() {
               <li key={href}>
                 <Link
                   href={href}
+                  aria-current={active ? 'page' : undefined}
                   className={cn(
                     'text-sm font-medium transition-colors hover:text-brand-glow',
                     active ? 'text-brand-glow' : 'text-gray-300'
@@ -97,6 +108,7 @@ export default function Navbar() {
                 <Link
                   href={href}
                   onClick={closeMenu}
+                  aria-current={pathname === href ? 'page' : undefined}
                   className={cn(
                     'block px-4 py-3 rounded-lg font-medium transition-colors hover:bg-gray-800 hover:text-white',
                     pathname === href ? 'text-brand-glow' : 'text-gray-300'

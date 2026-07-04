@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://vgcarservice.com.ar'),
+  metadataBase: new URL('https://vgcarservice.vercel.app'),
   title: {
     default: 'VG Car Service – Mecánica y estética vehicular en Barracas',
     template: '%s | VG Car Service',

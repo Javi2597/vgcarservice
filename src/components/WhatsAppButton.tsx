@@ -36,6 +36,7 @@ export default function WhatsAppButton() {
       {open && (
         <div
           role="dialog"
+          aria-modal="true"
           aria-label="Contactar por WhatsApp"
           className="fixed bottom-24 right-5 z-50 w-[min(360px,calc(100vw-2rem))] overflow-hidden rounded-2xl border border-gray-700 bg-gray-900 shadow-2xl shadow-black/50 motion-safe:animate-[fadeInUp_.18s_ease-out] sm:right-6"
         >
