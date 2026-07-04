@@ -45,3 +45,15 @@
     background-color: #06b6d4;
   }
 }
+
+/* Aparición del panel flotante de WhatsApp. */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

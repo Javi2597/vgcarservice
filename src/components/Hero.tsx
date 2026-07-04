@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Images, Sparkles } from 'lucide-react';
 import { BUSINESS_INFO } from '@/lib/utils';
-import { WhatsAppIcon } from '@/components/WhatsAppButton';
+import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },

@@ -1,27 +1,226 @@
+'use client';
+
+import { useEffect, useRef, useState } from 'react';
+import { X, ArrowLeft, Send } from 'lucide-react';
 import { BUSINESS_INFO } from '@/lib/utils';
+import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 
-/** Ícono de WhatsApp (lucide no incluye la marca, así que lo dibujamos). */
-function WhatsAppIcon({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.71.306 1.263.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.548 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-    </svg>
-  );
-}
+const MOTIVOS = [
+  { value: 'Turno', frase: 'Quería sacar un turno' },
+  { value: 'Presupuesto', frase: 'Quería pedir un presupuesto' },
+  { value: 'Consulta', frase: 'Quería hacer una consulta' },
+] as const;
 
-/** Botón flotante fijo, visible en todas las páginas. */
+type Motivo = (typeof MOTIVOS)[number]['value'];
+
+/** Botón flotante de WhatsApp con formulario rápido de 2 pasos. */
 export default function WhatsAppButton() {
+  const [open, setOpen] = useState(false);
+  const [step, setStep] = useState<1 | 2>(1);
+  const [nombre, setNombre] = useState('');
+  const [motivo, setMotivo] = useState<Motivo>('Turno');
+  const [numero, setNumero] = useState('');
+
+  const panelRef = useRef<HTMLDivElement>(null);
+  const nombreRef = useRef<HTMLInputElement>(null);
+  const numeroRef = useRef<HTMLInputElement>(null);
+
+  const nombreOk = nombre.trim().length > 0;
+  const numeroOk = numero.replace(/\D/g, '').length >= 6;
+
+  // Foco al input activo al abrir o cambiar de paso.
+  useEffect(() => {
+    if (!open) return;
+    const t = setTimeout(() => {
+      (step === 1 ? nombreRef : numeroRef).current?.focus();
+    }, 60);
+    return () => clearTimeout(t);
+  }, [open, step]);
+
+  // Cerrar con Escape.
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setOpen(false);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [open]);
+
+  function reset() {
+    setStep(1);
+    setNombre('');
+    setMotivo('Turno');
+    setNumero('');
+  }
+
+  function enviar() {
+    if (!nombreOk || !numeroOk) return;
+    const frase = MOTIVOS.find((m) => m.value === motivo)?.frase ?? 'Quería hacer una consulta';
+    const msg = `Hola ${BUSINESS_INFO.name}, soy ${nombre.trim()}. ${frase}. Mi número de contacto es ${numero.trim()}.`;
+    const url = `https://wa.me/${BUSINESS_INFO.whatsappNumber}?text=${encodeURIComponent(msg)}`;
+    window.open(url, '_blank', 'noopener,noreferrer');
+    setOpen(false);
+    reset();
+  }
+
   return (
-    <a
-      href={BUSINESS_INFO.whatsappUrl}
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label={`Escribinos por WhatsApp al ${BUSINESS_INFO.whatsapp}`}
-      className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-black/30 transition-transform duration-200 hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:bottom-6 sm:right-6"
-    >
-      <WhatsAppIcon className="h-7 w-7" />
-    </a>
+    <>
+      {/* Backdrop para cerrar al tocar afuera */}
+      {open && (
+        <button
+          aria-hidden="true"
+          tabIndex={-1}
+          onClick={() => setOpen(false)}
+          className="fixed inset-0 z-40 cursor-default bg-black/20 md:bg-transparent"
+        />
+      )}
+
+      {/* Panel del formulario */}
+      {open && (
+        <div
+          ref={panelRef}
+          role="dialog"
+          aria-label="Contactar por WhatsApp"
+          className="fixed bottom-24 right-5 z-50 w-[min(360px,calc(100vw-2rem))] overflow-hidden rounded-2xl border border-gray-700 bg-gray-900 shadow-2xl shadow-black/50 motion-safe:animate-[fadeInUp_.18s_ease-out] sm:bottom-24 sm:right-6"
+        >
+          {/* Header */}
+          <div className="flex items-center gap-3 bg-[#25D366] px-4 py-3.5">
+            <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/20">
+              <WhatsAppIcon className="h-5 w-5 text-white" />
+            </div>
+            <div className="min-w-0 flex-1">
+              <p className="truncate font-semibold leading-tight text-white">{BUSINESS_INFO.name}</p>
+              <p className="text-xs leading-tight text-white/90">Respondemos en minutos</p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              aria-label="Cerrar"
+              className="rounded-full p-1 text-white/90 transition-colors hover:bg-white/20 hover:text-white"
+            >
+              <X className="h-5 w-5" />
+            </button>
+          </div>
+
+          {/* Cuerpo */}
+          <div className="p-4">
+            <p className="mb-3 text-xs font-medium uppercase tracking-wide text-brand-cyan">
+              Paso {step} de 2
+            </p>
+
+            {step === 1 ? (
+              <div className="space-y-4">
+                <div>
+                  <label htmlFor="wa-nombre" className="mb-1.5 block text-sm text-gray-300">
+                    ¿Cómo te llamás?
+                  </label>
+                  <input
+                    id="wa-nombre"
+                    ref={nombreRef}
+                    type="text"
+                    value={nombre}
+                    onChange={(e) => setNombre(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' && nombreOk) setStep(2);
+                    }}
+                    placeholder="Tu nombre"
+                    className="w-full rounded-lg border border-gray-700 bg-gray-800 px-3 py-2.5 text-white placeholder-gray-500 outline-none focus:border-brand-cyan focus:ring-1 focus:ring-brand-cyan"
+                  />
+                </div>
+
+                <div>
+                  <span className="mb-1.5 block text-sm text-gray-300">¿Sobre qué querés escribir?</span>
+                  <div className="flex flex-wrap gap-2">
+                    {MOTIVOS.map((m) => {
+                      const activo = motivo === m.value;
+                      return (
+                        <button
+                          key={m.value}
+                          type="button"
+                          onClick={() => setMotivo(m.value)}
+                          aria-pressed={activo}
+                          className={`rounded-full border px-3.5 py-1.5 text-sm transition-colors ${
+                            activo
+                              ? 'border-brand-cyan bg-brand-cyan/15 text-brand-glow'
+                              : 'border-gray-700 bg-gray-800 text-gray-300 hover:border-gray-600'
+                          }`}
+                        >
+                          {m.value}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  onClick={() => setStep(2)}
+                  disabled={!nombreOk}
+                  className="w-full rounded-lg bg-brand-cyan px-4 py-2.5 font-semibold text-white transition-colors hover:bg-brand-cyan/90 disabled:cursor-not-allowed disabled:opacity-40"
+                >
+                  Siguiente
+                </button>
+              </div>
+            ) : (
+              <div className="space-y-4">
+                <div>
+                  <label htmlFor="wa-numero" className="mb-1.5 block text-sm text-gray-300">
+                    ¿A qué número te contactamos?
+                  </label>
+                  <input
+                    id="wa-numero"
+                    ref={numeroRef}
+                    type="tel"
+                    inputMode="tel"
+                    value={numero}
+                    onChange={(e) => setNumero(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' && numeroOk) enviar();
+                    }}
+                    placeholder="Ej: 11 5555-5555"
+                    className="w-full rounded-lg border border-gray-700 bg-gray-800 px-3 py-2.5 text-white placeholder-gray-500 outline-none focus:border-brand-cyan focus:ring-1 focus:ring-brand-cyan"
+                  />
+                  <p className="mt-1.5 text-xs text-gray-500">
+                    Hola {nombre.trim() || '…'} 👋 · {motivo}
+                  </p>
+                </div>
+
+                <div className="flex gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setStep(1)}
+                    aria-label="Volver al paso anterior"
+                    className="flex shrink-0 items-center justify-center rounded-lg border border-gray-700 bg-gray-800 px-3 text-gray-300 transition-colors hover:border-gray-600"
+                  >
+                    <ArrowLeft className="h-5 w-5" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={enviar}
+                    disabled={!numeroOk}
+                    className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-[#25D366] px-4 py-2.5 font-semibold text-white transition-colors hover:bg-[#20bd5a] disabled:cursor-not-allowed disabled:opacity-40"
+                  >
+                    <Send className="h-4 w-4" />
+                    Abrir WhatsApp
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Botón flotante */}
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-label={open ? 'Cerrar el chat de WhatsApp' : 'Escribinos por WhatsApp'}
+        aria-expanded={open}
+        className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-black/30 transition-transform duration-200 hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white sm:bottom-6 sm:right-6"
+      >
+        {open ? <X className="h-7 w-7" /> : <WhatsAppIcon className="h-7 w-7" />}
+      </button>
+    </>
   );
 }
-
-export { WhatsAppIcon };

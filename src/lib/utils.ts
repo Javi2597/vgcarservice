@@ -6,6 +6,7 @@ export const BUSINESS_INFO = {
   // Contacto por WhatsApp.
   whatsapp: '11 5581-2216',
   // Formato internacional para el link wa.me: 54 (Argentina) + 9 (celular) + 11 (área) + número.
+  whatsappNumber: '5491155812216',
   whatsappUrl:
     'https://wa.me/5491155812216?text=Hola%20VG%20Car%20Service%2C%20quer%C3%ADa%20consultar%20por%20un%20turno.',
   instagram: '@vgesteticavehicular',

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { MapPin, Clock, Instagram, Navigation } from 'lucide-react';
 import { BUSINESS_INFO } from '@/lib/utils';
-import { WhatsAppIcon } from '@/components/WhatsAppButton';
+import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 
 export const metadata: Metadata = {
   title: 'Contacto y ubicación',

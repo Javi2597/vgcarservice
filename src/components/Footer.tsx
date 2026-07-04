@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { MapPin, Clock, Car, Instagram } from 'lucide-react';
 import { BUSINESS_INFO } from '@/lib/utils';
-import { WhatsAppIcon } from '@/components/WhatsAppButton';
+import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import FooterMap from '@/components/FooterMap';
 
 export default function Footer() {

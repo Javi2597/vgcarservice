@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import Services from '@/components/Services';
 import { BUSINESS_INFO } from '@/lib/utils';
-import { WhatsAppIcon } from '@/components/WhatsAppButton';
+import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 
 export const metadata: Metadata = {
   title: 'Servicios',

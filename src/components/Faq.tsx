@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import { BUSINESS_INFO } from '@/lib/utils';
 import { FAQ } from '@/data/faq';
-import { WhatsAppIcon } from '@/components/WhatsAppButton';
+import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 
 export default function Faq() {
   const [abierta, setAbierta] = useState<number | null>(0);
