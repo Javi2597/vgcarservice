@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { MapPin, Clock, Instagram, Navigation } from 'lucide-react';
 import { BUSINESS_INFO } from '@/lib/utils';
 import { WhatsAppIcon } from '@/components/WhatsAppIcon';
+import WhatsAppForm from '@/components/WhatsAppForm';
 
 export const metadata: Metadata = {
   title: 'Contacto y ubicación',
@@ -31,21 +32,20 @@ export default function ContactoPage() {
           <div className="grid gap-8 lg:grid-cols-2">
             {/* Info */}
             <div className="space-y-4">
-              <a
-                href={BUSINESS_INFO.whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start gap-4 rounded-2xl border border-[#25D366]/40 bg-[#25D366]/10 p-6 transition-colors hover:border-[#25D366]/70 hover:bg-[#25D366]/20"
-              >
-                <WhatsAppIcon className="h-6 w-6 shrink-0 text-[#25D366]" />
-                <div>
-                  <h2 className="font-semibold text-white">WhatsApp</h2>
-                  <p className="mt-1 text-gray-300">
-                    {BUSINESS_INFO.whatsapp} — escribinos para pedir un turno o consultar por tu
-                    vehículo.
-                  </p>
+              <div className="rounded-2xl border border-[#25D366]/40 bg-[#25D366]/10 p-6">
+                <div className="flex items-start gap-4">
+                  <WhatsAppIcon className="h-6 w-6 shrink-0 text-[#25D366]" />
+                  <div>
+                    <h2 className="font-semibold text-white">Escribinos por WhatsApp</h2>
+                    <p className="mt-1 text-sm text-gray-300">
+                      Dejanos tu nombre y el motivo, y te abrimos el chat con el mensaje ya escrito.
+                    </p>
+                  </div>
                 </div>
-              </a>
+                <div className="mt-5">
+                  <WhatsAppForm />
+                </div>
+              </div>
 
               <div className="flex items-start gap-4 rounded-2xl border border-gray-700/60 bg-gray-800/50 p-6">
                 <MapPin className="h-6 w-6 shrink-0 text-brand-cyan" />
