@@ -102,7 +102,7 @@ export default function ArticuloPage({ params }: { params: { slug: string } }) {
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
           </div>
 
-          <ArticleCTA servicioSlug={post.servicioRelacionado} />
+          <ArticleCTA servicioSlug={post.servicioRelacionado} postTitle={post.title} />
         </div>
       </article>
     </main>
