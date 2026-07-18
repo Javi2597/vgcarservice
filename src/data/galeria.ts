@@ -292,16 +292,6 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "parte": "chevrolet interior butaca delantera"
       },
       {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-butaca-delantera-despues-05-20220120.jpg",
-        "alt": "chevrolet interior butaca delantera (despues) — Chevrolet Spin",
-        "parte": "chevrolet interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-butaca-delantera-despues-07-20220120.jpg",
-        "alt": "chevrolet interior butaca delantera (despues) — Chevrolet Spin",
-        "parte": "chevrolet interior butaca delantera"
-      },
-      {
         "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-panel-puerta-despues-01-20220119.jpg",
         "alt": "chevrolet interior panel puerta (despues) — Chevrolet Spin",
         "parte": "chevrolet interior panel puerta"
