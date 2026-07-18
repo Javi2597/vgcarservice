@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import StructuredData from '@/components/StructuredData';
+import { BASE_URL } from '@/lib/utils';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -15,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://vgcarservice.vercel.app'),
+  metadataBase: new URL(BASE_URL),
   title: {
     default: 'VG Car Service – Mecánica y estética vehicular en Barracas',
     template: '%s | VG Car Service',
@@ -35,6 +36,12 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'es_AR',
     siteName: 'VG Car Service',
+    title: 'VG Car Service – Mecánica y estética vehicular en Barracas',
+    description:
+      'Mecánica integral, chapa y pintura, y estética vehicular de especialidad en Av. Vieytes 838, Barracas (CABA).',
+  },
+  twitter: {
+    card: 'summary_large_image',
     title: 'VG Car Service – Mecánica y estética vehicular en Barracas',
     description:
       'Mecánica integral, chapa y pintura, y estética vehicular de especialidad en Av. Vieytes 838, Barracas (CABA).',

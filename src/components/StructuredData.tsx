@@ -1,6 +1,4 @@
-import { BUSINESS_INFO } from '@/lib/utils';
-
-const BASE_URL = 'https://vgcarservice.vercel.app';
+import { BUSINESS_INFO, BASE_URL } from '@/lib/utils';
 
 /** Datos estructurados del negocio (schema.org AutoRepair / LocalBusiness) para SEO local. */
 export default function StructuredData() {
@@ -10,6 +8,7 @@ export default function StructuredData() {
     name: BUSINESS_INFO.name,
     description: 'Taller de mecánica y estética vehicular en Barracas, CABA.',
     url: BASE_URL,
+    logo: `${BASE_URL}/icon-512.png`,
     image: `${BASE_URL}/galeria/pulido-exterior/chevrolet-spin/despues/chevrolet-spin-exterior-completo-despues-01-20220531.jpg`,
     telephone: '+5491155812216',
     priceRange: '$$',

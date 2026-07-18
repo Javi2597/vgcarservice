@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { Car, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { cn, BUSINESS_INFO } from '@/lib/utils';
 import InstagramGradientIcon from '@/components/icons/InstagramGradientIcon';
 
@@ -11,6 +12,7 @@ const NAV_LINKS = [
   { href: '/', label: 'Inicio' },
   { href: '/servicios', label: 'Servicios' },
   { href: '/galeria', label: 'Galería' },
+  { href: '/blog', label: 'Blog' },
   { href: '/contacto', label: 'Contacto' },
 ];
 
@@ -49,9 +51,14 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 group" onClick={closeMenu}>
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-cyan transition-colors group-hover:bg-brand-deep">
-            <Car className="h-5 w-5 text-white" />
-          </div>
+          <Image
+            src="/logo.png"
+            alt="VG Car Service"
+            width={600}
+            height={418}
+            priority
+            className="h-10 w-auto transition-transform group-hover:scale-105"
+          />
           <span className="text-lg font-bold tracking-tight leading-none">
             <span className="text-brand-glow">VG</span> Car Service
           </span>

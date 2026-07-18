@@ -93,27 +93,295 @@ export const TRABAJOS: TrabajoGaleria[] = [
     "totalFotos": 8
   },
   {
+    "id": "detailing-interior--chevrolet-spin",
+    "vehiculo": "Chevrolet Spin",
+    "servicioSlug": "detailing-interior",
+    "servicio": "Estética interior",
+    "titulo": "Chevrolet Spin · Estética interior",
+    "antes": [
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-butaca-delantera-antes-01-20220119.jpg",
+        "alt": "chevrolet interior butaca delantera (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-butaca-delantera-antes-02-20220119.jpg",
+        "alt": "chevrolet interior butaca delantera (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-butaca-delantera-antes-03-20220119.jpg",
+        "alt": "chevrolet interior butaca delantera (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-butaca-delantera-antes-04-20220120.jpg",
+        "alt": "chevrolet interior butaca delantera (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-butaca-delantera-antes-05-20220120.jpg",
+        "alt": "chevrolet interior butaca delantera (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-butaca-delantera-antes-06-20220120.jpg",
+        "alt": "chevrolet interior butaca delantera (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-butaca-delantera-antes-07-20220120.jpg",
+        "alt": "chevrolet interior butaca delantera (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-butaca-delantera-antes-08-20220120.jpg",
+        "alt": "chevrolet interior butaca delantera (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-butaca-delantera-antes-09-20220120.jpg",
+        "alt": "chevrolet interior butaca delantera (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-panel-puerta-antes-01-20220119.jpg",
+        "alt": "chevrolet interior panel puerta (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior panel puerta"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-volante-antes-01-20220119.jpg",
+        "alt": "chevrolet interior volante (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior volante"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-interior-volante-antes-02-20220119.jpg",
+        "alt": "chevrolet interior volante (antes) — Chevrolet Spin",
+        "parte": "chevrolet interior volante"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-baul-despues-01-20220419.jpg",
+        "alt": "baul (antes) — Chevrolet Spin",
+        "parte": "baul"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-butaca-delantera-antes-01-20220420.jpg",
+        "alt": "butaca delantera (antes) — Chevrolet Spin",
+        "parte": "butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-butaca-delantera-antes-02-20220420.jpg",
+        "alt": "butaca delantera (antes) — Chevrolet Spin",
+        "parte": "butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-butaca-delantera-antes-04-20220426.jpg",
+        "alt": "butaca delantera (antes) — Chevrolet Spin",
+        "parte": "butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-butaca-delantera-antes-05-20220426.jpg",
+        "alt": "butaca delantera (antes) — Chevrolet Spin",
+        "parte": "butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-butaca-delantera-despues-03-20220420.jpg",
+        "alt": "butaca delantera (antes) — Chevrolet Spin",
+        "parte": "butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-consola-antes-01-20220418.jpg",
+        "alt": "consola (antes) — Chevrolet Spin",
+        "parte": "consola"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-consola-antes-03-20220418.jpg",
+        "alt": "consola (antes) — Chevrolet Spin",
+        "parte": "consola"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-consola-antes-04-20220418.jpg",
+        "alt": "consola (antes) — Chevrolet Spin",
+        "parte": "consola"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-consola-despues-02-20220418.jpg",
+        "alt": "consola (antes) — Chevrolet Spin",
+        "parte": "consola"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-interior-general-antes-01-20220413.jpg",
+        "alt": "interior general (antes) — Chevrolet Spin",
+        "parte": "interior general"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-panel-puerta-antes-01-20220413.jpg",
+        "alt": "panel puerta (antes) — Chevrolet Spin",
+        "parte": "panel puerta"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-panel-puerta-antes-02-20220413.jpg",
+        "alt": "panel puerta (antes) — Chevrolet Spin",
+        "parte": "panel puerta"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-panel-puerta-antes-03-20220413.jpg",
+        "alt": "panel puerta (antes) — Chevrolet Spin",
+        "parte": "panel puerta"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-panel-puerta-antes-04-20220418.jpg",
+        "alt": "panel puerta (antes) — Chevrolet Spin",
+        "parte": "panel puerta"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-parante-antes-01-20220419.jpg",
+        "alt": "parante (antes) — Chevrolet Spin",
+        "parte": "parante"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-pieza-antes-01-20220418.jpg",
+        "alt": "pieza (antes) — Chevrolet Spin",
+        "parte": "pieza"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-piso-antes-01-20220413.jpg",
+        "alt": "piso (antes) — Chevrolet Spin",
+        "parte": "piso"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-piso-antes-02-20220413.jpg",
+        "alt": "piso (antes) — Chevrolet Spin",
+        "parte": "piso"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-tablero-antes-01-20220413.jpg",
+        "alt": "tablero (antes) — Chevrolet Spin",
+        "parte": "tablero"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-tablero-antes-02-20220418.jpg",
+        "alt": "tablero (antes) — Chevrolet Spin",
+        "parte": "tablero"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-techo-antes-01-20220419.jpg",
+        "alt": "techo (antes) — Chevrolet Spin",
+        "parte": "techo"
+      }
+    ],
+    "despues": [
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-butaca-delantera-despues-01-20220119.jpg",
+        "alt": "chevrolet interior butaca delantera (despues) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-butaca-delantera-despues-02-20220119.jpg",
+        "alt": "chevrolet interior butaca delantera (despues) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-butaca-delantera-despues-03-20220120.jpg",
+        "alt": "chevrolet interior butaca delantera (despues) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-butaca-delantera-despues-05-20220120.jpg",
+        "alt": "chevrolet interior butaca delantera (despues) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-butaca-delantera-despues-07-20220120.jpg",
+        "alt": "chevrolet interior butaca delantera (despues) — Chevrolet Spin",
+        "parte": "chevrolet interior butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-consola-antes-01-20220119.jpg",
+        "alt": "chevrolet interior consola (despues) — Chevrolet Spin",
+        "parte": "chevrolet interior consola"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-consola-antes-02-20220119.jpg",
+        "alt": "chevrolet interior consola (despues) — Chevrolet Spin",
+        "parte": "chevrolet interior consola"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-panel-puerta-despues-01-20220119.jpg",
+        "alt": "chevrolet interior panel puerta (despues) — Chevrolet Spin",
+        "parte": "chevrolet interior panel puerta"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-panel-puerta-despues-02-20220119.jpg",
+        "alt": "chevrolet interior panel puerta (despues) — Chevrolet Spin",
+        "parte": "chevrolet interior panel puerta"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-volante-despues-01-20220119.jpg",
+        "alt": "chevrolet interior volante (despues) — Chevrolet Spin",
+        "parte": "chevrolet interior volante"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-volante-despues-02-20220119.jpg",
+        "alt": "chevrolet interior volante (despues) — Chevrolet Spin",
+        "parte": "chevrolet interior volante"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-butaca-delantera-antes-01-20220426.jpg",
+        "alt": "butaca delantera (despues) — Chevrolet Spin",
+        "parte": "butaca delantera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-butaca-trasera-antes-01-20220420.jpg",
+        "alt": "butaca trasera (despues) — Chevrolet Spin",
+        "parte": "butaca trasera"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-consola-despues-02-20220419.jpg",
+        "alt": "consola (despues) — Chevrolet Spin",
+        "parte": "consola"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-interior-general-despues-01-20220419.jpg",
+        "alt": "interior general (despues) — Chevrolet Spin",
+        "parte": "interior general"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-parante-despues-02-20220420.jpg",
+        "alt": "parante (despues) — Chevrolet Spin",
+        "parte": "parante"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-tablero-despues-01-20220419.jpg",
+        "alt": "tablero (despues) — Chevrolet Spin",
+        "parte": "tablero"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-tablero-despues-02-20220419.jpg",
+        "alt": "tablero (despues) — Chevrolet Spin",
+        "parte": "tablero"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-techo-antes-01-20220419.jpg",
+        "alt": "techo (despues) — Chevrolet Spin",
+        "parte": "techo"
+      },
+      {
+        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-techo-despues-04-20220420.jpg",
+        "alt": "techo (despues) — Chevrolet Spin",
+        "parte": "techo"
+      }
+    ],
+    "portada": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-interior-butaca-delantera-despues-01-20220119.jpg",
+    "totalFotos": 54
+  },
+  {
     "id": "detailing-interior--peugeot-205",
     "vehiculo": "Peugeot 205",
     "servicioSlug": "detailing-interior",
     "servicio": "Estética interior",
     "titulo": "Peugeot 205 · Estética interior",
     "antes": [
-      {
-        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-apoyacabezas-antes-01-20220805.jpg",
-        "alt": "apoyacabezas (antes) — Peugeot 205",
-        "parte": "apoyacabezas"
-      },
-      {
-        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-apoyacabezas-antes-02-20220805.jpg",
-        "alt": "apoyacabezas (antes) — Peugeot 205",
-        "parte": "apoyacabezas"
-      },
-      {
-        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-apoyacabezas-antes-03-20220805.jpg",
-        "alt": "apoyacabezas (antes) — Peugeot 205",
-        "parte": "apoyacabezas"
-      },
       {
         "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-baul-antes-01-20220124.jpg",
         "alt": "baul (antes) — Peugeot 205",
@@ -126,11 +394,6 @@ export const TRABAJOS: TrabajoGaleria[] = [
       },
       {
         "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-delantera-antes-02-20220314.jpg",
-        "alt": "butaca delantera (antes) — Peugeot 205",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-delantera-antes-03-20220801.jpg",
         "alt": "butaca delantera (antes) — Peugeot 205",
         "parte": "butaca delantera"
       },
@@ -165,11 +428,6 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "parte": "butaca trasera"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-butaca-trasera-antes-06-20220303.jpg",
-        "alt": "butaca trasera (antes) — Peugeot 205",
-        "parte": "butaca trasera"
-      },
-      {
         "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-interior-general-antes-01-20220124.jpg",
         "alt": "interior general (antes) — Peugeot 205",
         "parte": "interior general"
@@ -193,16 +451,6 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-panel-puerta-antes-02-20220718.jpg",
         "alt": "panel puerta (antes) — Peugeot 205",
         "parte": "panel puerta"
-      },
-      {
-        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-parante-antes-01-20220718.jpg",
-        "alt": "parante (antes) — Peugeot 205",
-        "parte": "parante"
-      },
-      {
-        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-parante-antes-02-20220718.jpg",
-        "alt": "parante (antes) — Peugeot 205",
-        "parte": "parante"
       },
       {
         "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-parante-antes-03-20220718.jpg",
@@ -275,14 +523,14 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "parte": "techo"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-techo-antes-07-20220713.jpg",
+        "src": "/galeria/detailing-interior/peugeot-205/antes/peugeot-205-techo-despues-07-20220713.jpg",
         "alt": "techo (antes) — Peugeot 205",
         "parte": "techo"
       }
     ],
     "despues": [
       {
-        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-apoyacabezas-despues-01-20220805.jpg",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-apoyacabezas-antes-01-20220805.jpg",
         "alt": "apoyacabezas (despues) — Peugeot 205",
         "parte": "apoyacabezas"
       },
@@ -327,7 +575,7 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "parte": "interior general"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-panel-puerta-despues-01-20220718.jpg",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-panel-puerta-antes-01-20220718.jpg",
         "alt": "panel puerta (despues) — Peugeot 205",
         "parte": "panel puerta"
       },
@@ -367,11 +615,6 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "parte": "parante"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-parante-despues-02-20220718.jpg",
-        "alt": "parante (despues) — Peugeot 205",
-        "parte": "parante"
-      },
-      {
         "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-pieza-despues-01-20220722.jpg",
         "alt": "pieza (despues) — Peugeot 205",
         "parte": "pieza"
@@ -382,12 +625,12 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "parte": "pieza"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-tablero-despues-01-20220720.jpg",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-tablero-antes-01-20220720.jpg",
         "alt": "tablero (despues) — Peugeot 205",
         "parte": "tablero"
       },
       {
-        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-tablero-despues-02-20220722.jpg",
+        "src": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-tablero-antes-02-20220722.jpg",
         "alt": "tablero (despues) — Peugeot 205",
         "parte": "tablero"
       },
@@ -402,236 +645,8 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "parte": "techo"
       }
     ],
-    "portada": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-apoyacabezas-despues-01-20220805.jpg",
-    "totalFotos": 60
-  },
-  {
-    "id": "detailing-interior--chevrolet-spin",
-    "vehiculo": "Chevrolet Spin",
-    "servicioSlug": "detailing-interior",
-    "servicio": "Estética interior",
-    "titulo": "Chevrolet Spin · Estética interior",
-    "antes": [
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-baul-antes-01-20220419.jpg",
-        "alt": "baul (antes) — Chevrolet Spin",
-        "parte": "baul"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-butaca-delantera-antes-01-20220420.jpg",
-        "alt": "butaca delantera (antes) — Chevrolet Spin",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-butaca-delantera-antes-02-20220420.jpg",
-        "alt": "butaca delantera (antes) — Chevrolet Spin",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-butaca-delantera-antes-03-20220420.jpg",
-        "alt": "butaca delantera (antes) — Chevrolet Spin",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-butaca-delantera-antes-04-20220426.jpg",
-        "alt": "butaca delantera (antes) — Chevrolet Spin",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-butaca-delantera-antes-05-20220426.jpg",
-        "alt": "butaca delantera (antes) — Chevrolet Spin",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-butaca-delantera-antes-06-20220426.jpg",
-        "alt": "butaca delantera (antes) — Chevrolet Spin",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-consola-antes-01-20220418.jpg",
-        "alt": "consola (antes) — Chevrolet Spin",
-        "parte": "consola"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-consola-antes-02-20220418.jpg",
-        "alt": "consola (antes) — Chevrolet Spin",
-        "parte": "consola"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-consola-antes-03-20220418.jpg",
-        "alt": "consola (antes) — Chevrolet Spin",
-        "parte": "consola"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-consola-antes-04-20220418.jpg",
-        "alt": "consola (antes) — Chevrolet Spin",
-        "parte": "consola"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-interior-general-antes-01-20220413.jpg",
-        "alt": "interior general (antes) — Chevrolet Spin",
-        "parte": "interior general"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-panel-puerta-antes-01-20220413.jpg",
-        "alt": "panel puerta (antes) — Chevrolet Spin",
-        "parte": "panel puerta"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-panel-puerta-antes-02-20220413.jpg",
-        "alt": "panel puerta (antes) — Chevrolet Spin",
-        "parte": "panel puerta"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-panel-puerta-antes-03-20220413.jpg",
-        "alt": "panel puerta (antes) — Chevrolet Spin",
-        "parte": "panel puerta"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-panel-puerta-antes-04-20220418.jpg",
-        "alt": "panel puerta (antes) — Chevrolet Spin",
-        "parte": "panel puerta"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-parante-antes-01-20220419.jpg",
-        "alt": "parante (antes) — Chevrolet Spin",
-        "parte": "parante"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-pieza-antes-01-20220418.jpg",
-        "alt": "pieza (antes) — Chevrolet Spin",
-        "parte": "pieza"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-piso-antes-01-20220413.jpg",
-        "alt": "piso (antes) — Chevrolet Spin",
-        "parte": "piso"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-piso-antes-02-20220413.jpg",
-        "alt": "piso (antes) — Chevrolet Spin",
-        "parte": "piso"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-tablero-antes-01-20220413.jpg",
-        "alt": "tablero (antes) — Chevrolet Spin",
-        "parte": "tablero"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-tablero-antes-02-20220418.jpg",
-        "alt": "tablero (antes) — Chevrolet Spin",
-        "parte": "tablero"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/antes/chevrolet-spin-techo-antes-01-20220419.jpg",
-        "alt": "techo (antes) — Chevrolet Spin",
-        "parte": "techo"
-      }
-    ],
-    "despues": [
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-butaca-delantera-despues-01-20220426.jpg",
-        "alt": "butaca delantera (despues) — Chevrolet Spin",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-butaca-delantera-despues-02-20220426.jpg",
-        "alt": "butaca delantera (despues) — Chevrolet Spin",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-butaca-trasera-despues-01-20220420.jpg",
-        "alt": "butaca trasera (despues) — Chevrolet Spin",
-        "parte": "butaca trasera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-butaca-trasera-despues-02-20220420.jpg",
-        "alt": "butaca trasera (despues) — Chevrolet Spin",
-        "parte": "butaca trasera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-consola-despues-01-20220418.jpg",
-        "alt": "consola (despues) — Chevrolet Spin",
-        "parte": "consola"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-consola-despues-02-20220419.jpg",
-        "alt": "consola (despues) — Chevrolet Spin",
-        "parte": "consola"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-interior-general-despues-01-20220419.jpg",
-        "alt": "interior general (despues) — Chevrolet Spin",
-        "parte": "interior general"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-parante-despues-01-20220419.jpg",
-        "alt": "parante (despues) — Chevrolet Spin",
-        "parte": "parante"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-parante-despues-02-20220420.jpg",
-        "alt": "parante (despues) — Chevrolet Spin",
-        "parte": "parante"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-piso-despues-01-20220419.jpg",
-        "alt": "piso (despues) — Chevrolet Spin",
-        "parte": "piso"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-piso-despues-02-20220419.jpg",
-        "alt": "piso (despues) — Chevrolet Spin",
-        "parte": "piso"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-piso-despues-03-20220419.jpg",
-        "alt": "piso (despues) — Chevrolet Spin",
-        "parte": "piso"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-tablero-despues-01-20220419.jpg",
-        "alt": "tablero (despues) — Chevrolet Spin",
-        "parte": "tablero"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-tablero-despues-02-20220419.jpg",
-        "alt": "tablero (despues) — Chevrolet Spin",
-        "parte": "tablero"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-techo-despues-01-20220419.jpg",
-        "alt": "techo (despues) — Chevrolet Spin",
-        "parte": "techo"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-techo-despues-02-20220419.jpg",
-        "alt": "techo (despues) — Chevrolet Spin",
-        "parte": "techo"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-techo-despues-03-20220419.jpg",
-        "alt": "techo (despues) — Chevrolet Spin",
-        "parte": "techo"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-techo-despues-04-20220420.jpg",
-        "alt": "techo (despues) — Chevrolet Spin",
-        "parte": "techo"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-techo-despues-05-20220420.jpg",
-        "alt": "techo (despues) — Chevrolet Spin",
-        "parte": "techo"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-techo-despues-06-20220420.jpg",
-        "alt": "techo (despues) — Chevrolet Spin",
-        "parte": "techo"
-      }
-    ],
-    "portada": "/galeria/detailing-interior/chevrolet-spin/despues/chevrolet-spin-butaca-delantera-despues-01-20220426.jpg",
-    "totalFotos": 43
+    "portada": "/galeria/detailing-interior/peugeot-205/despues/peugeot-205-apoyacabezas-antes-01-20220805.jpg",
+    "totalFotos": 52
   },
   {
     "id": "detailing-interior--chevrolet-corsa",
@@ -661,6 +676,11 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "parte": "butaca"
       },
       {
+        "src": "/galeria/detailing-interior/chevrolet-corsa/antes/chevrolet-corsa-butaca-antes-02-20220426.jpg",
+        "alt": "butaca (antes) — Chevrolet Corsa",
+        "parte": "butaca"
+      },
+      {
         "src": "/galeria/detailing-interior/chevrolet-corsa/antes/chevrolet-corsa-butaca-antes-03-20220326.jpg",
         "alt": "butaca (antes) — Chevrolet Corsa",
         "parte": "butaca"
@@ -677,16 +697,6 @@ export const TRABAJOS: TrabajoGaleria[] = [
       },
       {
         "src": "/galeria/detailing-interior/chevrolet-corsa/antes/chevrolet-corsa-butaca-trasera-antes-02-20220326.jpg",
-        "alt": "butaca trasera (antes) — Chevrolet Corsa",
-        "parte": "butaca trasera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-corsa/antes/chevrolet-corsa-butaca-trasera-antes-03-20220327.jpg",
-        "alt": "butaca trasera (antes) — Chevrolet Corsa",
-        "parte": "butaca trasera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-corsa/antes/chevrolet-corsa-butaca-trasera-antes-04-20220327.jpg",
         "alt": "butaca trasera (antes) — Chevrolet Corsa",
         "parte": "butaca trasera"
       },
@@ -716,12 +726,12 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "parte": "panel puerta"
       },
       {
-        "src": "/galeria/detailing-interior/chevrolet-corsa/antes/chevrolet-corsa-panel-puerta-antes-04-20220327.jpg",
+        "src": "/galeria/detailing-interior/chevrolet-corsa/antes/chevrolet-corsa-panel-puerta-despues-04-20220327.jpg",
         "alt": "panel puerta (antes) — Chevrolet Corsa",
         "parte": "panel puerta"
       },
       {
-        "src": "/galeria/detailing-interior/chevrolet-corsa/antes/chevrolet-corsa-panel-puerta-antes-05-20220327.jpg",
+        "src": "/galeria/detailing-interior/chevrolet-corsa/antes/chevrolet-corsa-panel-puerta-despues-05-20220327.jpg",
         "alt": "panel puerta (antes) — Chevrolet Corsa",
         "parte": "panel puerta"
       },
@@ -738,32 +748,7 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "parte": "butaca delantera"
       },
       {
-        "src": "/galeria/detailing-interior/chevrolet-corsa/despues/chevrolet-corsa-butaca-delantera-despues-02-20220326.jpg",
-        "alt": "butaca delantera (despues) — Chevrolet Corsa",
-        "parte": "butaca delantera"
-      },
-      {
         "src": "/galeria/detailing-interior/chevrolet-corsa/despues/chevrolet-corsa-butaca-delantera-despues-03-20220327.jpg",
-        "alt": "butaca delantera (despues) — Chevrolet Corsa",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-corsa/despues/chevrolet-corsa-butaca-delantera-despues-04-20220327.jpg",
-        "alt": "butaca delantera (despues) — Chevrolet Corsa",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-corsa/despues/chevrolet-corsa-butaca-delantera-despues-05-20220327.jpg",
-        "alt": "butaca delantera (despues) — Chevrolet Corsa",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-corsa/despues/chevrolet-corsa-butaca-delantera-despues-06-20220327.jpg",
-        "alt": "butaca delantera (despues) — Chevrolet Corsa",
-        "parte": "butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-corsa/despues/chevrolet-corsa-butaca-delantera-despues-07-20220327.jpg",
         "alt": "butaca delantera (despues) — Chevrolet Corsa",
         "parte": "butaca delantera"
       },
@@ -773,161 +758,13 @@ export const TRABAJOS: TrabajoGaleria[] = [
         "parte": "butaca delantera"
       },
       {
-        "src": "/galeria/detailing-interior/chevrolet-corsa/despues/chevrolet-corsa-butaca-delantera-despues-09-20220327.jpg",
-        "alt": "butaca delantera (despues) — Chevrolet Corsa",
-        "parte": "butaca delantera"
-      },
-      {
         "src": "/galeria/detailing-interior/chevrolet-corsa/despues/chevrolet-corsa-butaca-trasera-despues-01-20220327.jpg",
-        "alt": "butaca trasera (despues) — Chevrolet Corsa",
-        "parte": "butaca trasera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet-corsa/despues/chevrolet-corsa-butaca-trasera-despues-02-20220327.jpg",
         "alt": "butaca trasera (despues) — Chevrolet Corsa",
         "parte": "butaca trasera"
       }
     ],
     "portada": "/galeria/detailing-interior/chevrolet-corsa/despues/chevrolet-corsa-butaca-delantera-despues-01-20220326.jpg",
-    "totalFotos": 29
-  },
-  {
-    "id": "detailing-interior--chevrolet",
-    "vehiculo": "Chevrolet",
-    "servicioSlug": "detailing-interior",
-    "servicio": "Estética interior",
-    "titulo": "Chevrolet · Estética interior",
-    "antes": [
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-butaca-delantera-antes-01-20220119.jpg",
-        "alt": "interior butaca delantera (antes) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-butaca-delantera-antes-02-20220119.jpg",
-        "alt": "interior butaca delantera (antes) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-butaca-delantera-antes-03-20220119.jpg",
-        "alt": "interior butaca delantera (antes) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-butaca-delantera-antes-04-20220120.jpg",
-        "alt": "interior butaca delantera (antes) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-butaca-delantera-antes-05-20220120.jpg",
-        "alt": "interior butaca delantera (antes) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-butaca-delantera-antes-06-20220120.jpg",
-        "alt": "interior butaca delantera (antes) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-butaca-delantera-antes-07-20220120.jpg",
-        "alt": "interior butaca delantera (antes) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-butaca-delantera-antes-08-20220120.jpg",
-        "alt": "interior butaca delantera (antes) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-butaca-delantera-antes-09-20220120.jpg",
-        "alt": "interior butaca delantera (antes) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-panel-puerta-antes-01-20220119.jpg",
-        "alt": "interior panel puerta (antes) — Chevrolet",
-        "parte": "interior panel puerta"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-volante-antes-01-20220119.jpg",
-        "alt": "interior volante (antes) — Chevrolet",
-        "parte": "interior volante"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/antes/chevrolet-interior-volante-antes-02-20220119.jpg",
-        "alt": "interior volante (antes) — Chevrolet",
-        "parte": "interior volante"
-      }
-    ],
-    "despues": [
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-butaca-delantera-despues-01-20220119.jpg",
-        "alt": "interior butaca delantera (despues) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-butaca-delantera-despues-02-20220119.jpg",
-        "alt": "interior butaca delantera (despues) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-butaca-delantera-despues-03-20220120.jpg",
-        "alt": "interior butaca delantera (despues) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-butaca-delantera-despues-04-20220120.jpg",
-        "alt": "interior butaca delantera (despues) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-butaca-delantera-despues-05-20220120.jpg",
-        "alt": "interior butaca delantera (despues) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-butaca-delantera-despues-06-20220120.jpg",
-        "alt": "interior butaca delantera (despues) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-butaca-delantera-despues-07-20220120.jpg",
-        "alt": "interior butaca delantera (despues) — Chevrolet",
-        "parte": "interior butaca delantera"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-consola-despues-01-20220119.jpg",
-        "alt": "interior consola (despues) — Chevrolet",
-        "parte": "interior consola"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-consola-despues-02-20220119.jpg",
-        "alt": "interior consola (despues) — Chevrolet",
-        "parte": "interior consola"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-panel-puerta-despues-01-20220119.jpg",
-        "alt": "interior panel puerta (despues) — Chevrolet",
-        "parte": "interior panel puerta"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-panel-puerta-despues-02-20220119.jpg",
-        "alt": "interior panel puerta (despues) — Chevrolet",
-        "parte": "interior panel puerta"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-volante-despues-01-20220119.jpg",
-        "alt": "interior volante (despues) — Chevrolet",
-        "parte": "interior volante"
-      },
-      {
-        "src": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-volante-despues-02-20220119.jpg",
-        "alt": "interior volante (despues) — Chevrolet",
-        "parte": "interior volante"
-      }
-    ],
-    "portada": "/galeria/detailing-interior/chevrolet/despues/chevrolet-interior-butaca-delantera-despues-01-20220119.jpg",
-    "totalFotos": 25
+    "totalFotos": 21
   },
   {
     "id": "pulido-exterior--peugeot-205",

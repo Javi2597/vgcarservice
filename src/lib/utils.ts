@@ -23,6 +23,9 @@ export const BUSINESS_INFO = {
   scheduleShort: 'Lun a Sáb · 10 a 20 h',
 } as const;
 
+// URL base del sitio (producción).
+export const BASE_URL = 'https://vgcarservice.com.ar';
+
 export function cn(...classes: (string | undefined | null | false)[]): string {
   return classes.filter(Boolean).join(' ');
 }

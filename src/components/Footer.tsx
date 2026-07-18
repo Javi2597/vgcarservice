@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Car } from 'lucide-react';
+import Image from 'next/image';
 import AnimatedMapPin from '@/components/icons/AnimatedMapPin';
 import AnimatedClock from '@/components/icons/AnimatedClock';
 import InstagramGradientIcon from '@/components/icons/InstagramGradientIcon';
@@ -17,9 +17,13 @@ export default function Footer() {
           {/* Columna 1: Marca + contacto */}
           <div>
             <div className="mb-6 flex items-center gap-2.5">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-cyan">
-                <Car className="h-4 w-4 text-white" />
-              </div>
+              <Image
+                src="/logo.png"
+                alt="VG Car Service"
+                width={600}
+                height={418}
+                className="h-9 w-auto"
+              />
               <span className="text-lg font-bold">
                 <span className="text-brand-glow">VG</span> Car Service
               </span>
@@ -93,6 +97,9 @@ export default function Footer() {
               </Link>
               <Link href="/galeria" className="text-gray-400 hover:text-brand-glow transition-colors">
                 Galería
+              </Link>
+              <Link href="/blog" className="text-gray-400 hover:text-brand-glow transition-colors">
+                Blog
               </Link>
               <Link href="/contacto" className="text-gray-400 hover:text-brand-glow transition-colors">
                 Contacto
