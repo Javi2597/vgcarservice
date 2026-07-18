@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import { SERVICIOS } from '@/data/servicios';
+import { categoriaLabel } from '@/lib/blog';
 
 const WHATSAPP_NUMBER = '5491155812216';
 
@@ -9,10 +10,28 @@ function buildWhatsAppUrl(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
+interface ArticleCTAProps {
+  servicioSlug?: string;
+  postTitle: string;
+  category?: string;
+}
+
+/**
+ * Arma un mensaje de WhatsApp breve con el contexto del artículo (título y tema)
+ * para que el taller sepa de qué se trata la consulta sin leer un texto largo.
+ */
+function buildConsultaMessage({ postTitle, category }: ArticleCTAProps): string {
+  const tema = category ? ` (sobre ${categoriaLabel(category).toLowerCase()})` : '';
+  return (
+    `Hola VG Car Service 👋 Leí en el blog la nota "${postTitle}"${tema} ` +
+    `y me está pasando algo parecido. ¿Me asesoran y coordinamos una revisión?`
+  );
+}
+
 /** Bloque de cierre de cada artículo: lleva la lectura al WhatsApp y al servicio relacionado. */
-export default function ArticleCTA({ servicioSlug, postTitle }: { servicioSlug?: string; postTitle: string }) {
+export default function ArticleCTA({ servicioSlug, postTitle, category }: ArticleCTAProps) {
   const servicio = SERVICIOS.find((s) => s.slug === servicioSlug);
-  const whatsappMessage = `Hola VG Car Service, quería consultar sobre ${postTitle}.`;
+  const whatsappMessage = buildConsultaMessage({ postTitle, category });
   const whatsappUrl = buildWhatsAppUrl(whatsappMessage);
 
   return (
