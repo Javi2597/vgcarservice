@@ -46,3 +46,14 @@ export function getPostBySlug(slug: string): Post | null {
     return null;
   }
 }
+
+/**
+ * Notas relacionadas a un artículo: prioriza la misma categoría y, si no llegan
+ * al límite, completa con las más recientes de otras categorías.
+ */
+export function getRelatedPosts(slug: string, category: string, limit = 3): Post[] {
+  const otros = getAllPosts().filter((p) => p.slug !== slug);
+  const mismaCategoria = otros.filter((p) => p.category === category);
+  const resto = otros.filter((p) => p.category !== category);
+  return [...mismaCategoria, ...resto].slice(0, limit);
+}

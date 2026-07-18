@@ -5,9 +5,10 @@ import { notFound } from 'next/navigation';
 import { ArrowLeft, Clock } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { getAllPosts, getPostBySlug } from '@/lib/blog.server';
+import { getAllPosts, getPostBySlug, getRelatedPosts } from '@/lib/blog.server';
 import { categoriaLabel, formatFecha } from '@/lib/blog';
 import ArticleCTA from '@/components/ArticleCTA';
+import RelatedPosts from '@/components/RelatedPosts';
 import { BASE_URL } from '@/lib/utils';
 
 export function generateStaticParams() {
@@ -39,6 +40,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
 export default function ArticuloPage({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
+
+  const relacionados = getRelatedPosts(post.slug, post.category);
 
   const url = `${BASE_URL}/blog/${post.slug}`;
   const jsonLd = {
@@ -107,6 +110,8 @@ export default function ArticuloPage({ params }: { params: { slug: string } }) {
             postTitle={post.title}
             category={post.category}
           />
+
+          <RelatedPosts posts={relacionados} />
         </div>
       </article>
     </main>
