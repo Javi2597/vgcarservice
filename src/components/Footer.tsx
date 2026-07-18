@@ -114,10 +114,21 @@ export default function Footer() {
 
       <div className="border-t border-gray-800">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-xs text-gray-500">
-            © {year} VG Car Service. Todos los derechos reservados.
+          <p className="text-xs text-gray-500 text-center sm:text-left">
+            © {year} VG Car Service. Todos los derechos reservados. · Barracas, Ciudad de
+            Buenos Aires
           </p>
-          <p className="text-xs text-gray-500">Barracas, Ciudad de Buenos Aires</p>
+          <p className="text-xs text-gray-500">
+            Web por{' '}
+            <a
+              href="https://pixelforge.com.ar/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-glow hover:opacity-70 transition-opacity"
+            >
+              Pixel Forge
+            </a>
+          </p>
         </div>
       </div>
     </footer>
